@@ -122,7 +122,7 @@ class Main:
 
 
 
-    # Change the working directory for the subprocess and run the command
+   
     def makeCommand(self,command):
         try:
             print(f"running this command({Fore.LIGHTBLUE_EX}{command}{Fore.RESET})")
